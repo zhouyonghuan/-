@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/questionBank/index",
+    "pages/mine/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/image/顺风车_a.png",
+        "selectedIconPath": "static/image/顺风车_a.png",
+        "text": "顺风车"
+      },
+      {
+        "pagePath": "pages/questionBank/index",
+        "iconPath": "static/image/题库.png",
+        "selectedIconPath": "static/image/题库.png",
+        "text": "题库"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "static/image/mine.png",
+        "selectedIconPath": "static/image/mine.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap58.json"
+}
