@@ -7767,26 +7767,7 @@ function normalizeComponent (
 
 
 /***/ }),
-/* 11 */,
-/* 12 */,
-/* 13 */,
-/* 14 */,
-/* 15 */,
-/* 16 */,
-/* 17 */,
-/* 18 */,
-/* 19 */,
-/* 20 */,
-/* 21 */,
-/* 22 */,
-/* 23 */,
-/* 24 */,
-/* 25 */,
-/* 26 */,
-/* 27 */,
-/* 28 */,
-/* 29 */,
-/* 30 */
+/* 11 */
 /*!**********************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/index.js ***!
   \**********************************************************************************************************/
@@ -7795,13 +7776,11 @@ function normalizeComponent (
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
-var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 31));
+var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 12));
 
-var _mpShare = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mpShare.js */ 32));
+var _mpShare = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mpShare.js */ 13));
 
-var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 33));
-
-
+var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 14));
 
 
 
@@ -7820,42 +7799,44 @@ var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 
 
 
 
-var _queryParams = _interopRequireDefault(__webpack_require__(/*! ./libs/function/queryParams.js */ 37));
-
-var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/function/route.js */ 38));
-
-var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFormat.js */ 39));
-
-var _timeFrom = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFrom.js */ 40));
-
-var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 41));
-
-var _guid = _interopRequireDefault(__webpack_require__(/*! ./libs/function/guid.js */ 42));
-
-var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/function/color.js */ 43));
-
-var _type2icon = _interopRequireDefault(__webpack_require__(/*! ./libs/function/type2icon.js */ 44));
-
-var _randomArray = _interopRequireDefault(__webpack_require__(/*! ./libs/function/randomArray.js */ 45));
-
-var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepClone.js */ 35));
-
-var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepMerge.js */ 34));
 
 
-var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 36));
+var _queryParams = _interopRequireDefault(__webpack_require__(/*! ./libs/function/queryParams.js */ 18));
 
-var _random = _interopRequireDefault(__webpack_require__(/*! ./libs/function/random.js */ 46));
+var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/function/route.js */ 19));
 
-var _trim = _interopRequireDefault(__webpack_require__(/*! ./libs/function/trim.js */ 47));
+var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFormat.js */ 20));
 
-var _toast = _interopRequireDefault(__webpack_require__(/*! ./libs/function/toast.js */ 48));
+var _timeFrom = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFrom.js */ 21));
+
+var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 22));
+
+var _guid = _interopRequireDefault(__webpack_require__(/*! ./libs/function/guid.js */ 23));
+
+var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/function/color.js */ 24));
+
+var _type2icon = _interopRequireDefault(__webpack_require__(/*! ./libs/function/type2icon.js */ 25));
+
+var _randomArray = _interopRequireDefault(__webpack_require__(/*! ./libs/function/randomArray.js */ 26));
+
+var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepClone.js */ 16));
+
+var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepMerge.js */ 15));
+
+
+var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 17));
+
+var _random = _interopRequireDefault(__webpack_require__(/*! ./libs/function/random.js */ 27));
+
+var _trim = _interopRequireDefault(__webpack_require__(/*! ./libs/function/trim.js */ 28));
+
+var _toast = _interopRequireDefault(__webpack_require__(/*! ./libs/function/toast.js */ 29));
 
 
 
-var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 49));
+var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 30));
 
-var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 50));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 引入全局mixin
+var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 31));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 引入全局mixin
 // 引入关于是否mixin集成小程序分享的配置
 // 全局挂载引入http相关请求拦截插件
 function wranning(str) {// 开发环境进行信息输出,主要是一些报错信息
@@ -7911,7 +7892,7 @@ var install = function install(Vue) {
   install: install };exports.default = _default;
 
 /***/ }),
-/* 31 */
+/* 12 */
 /*!*********************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/mixin/mixin.js ***!
   \*********************************************************************************************************************/
@@ -7950,7 +7931,7 @@ var install = function install(Vue) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 32 */
+/* 13 */
 /*!***********************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/mixin/mpShare.js ***!
   \***********************************************************************************************************************/
@@ -7971,7 +7952,7 @@ module.exports = {
   } };
 
 /***/ }),
-/* 33 */
+/* 14 */
 /*!***********************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/request/index.js ***!
   \***********************************************************************************************************************/
@@ -7979,8 +7960,8 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ../function/deepMerge */ 34));
-var _test = _interopRequireDefault(__webpack_require__(/*! ../function/test */ 36));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ../function/deepMerge */ 15));
+var _test = _interopRequireDefault(__webpack_require__(/*! ../function/test */ 17));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var
 Request = /*#__PURE__*/function () {_createClass(Request, [{ key: "setConfig",
     // 设置全局默认配置
     value: function setConfig(customConfig) {
@@ -8145,7 +8126,7 @@ new Request();exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 34 */
+/* 15 */
 /*!****************************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/function/deepMerge.js ***!
   \****************************************************************************************************************************/
@@ -8153,7 +8134,7 @@ new Request();exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./deepClone */ 35));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./deepClone */ 16));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 // JS对象深度合并
 function deepMerge() {var target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var source = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
@@ -8185,7 +8166,7 @@ function deepMerge() {var target = arguments.length > 0 && arguments[0] !== unde
 deepMerge;exports.default = _default;
 
 /***/ }),
-/* 35 */
+/* 16 */
 /*!****************************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/function/deepClone.js ***!
   \****************************************************************************************************************************/
@@ -8216,7 +8197,7 @@ function deepClone(obj) {
 deepClone;exports.default = _default;
 
 /***/ }),
-/* 36 */
+/* 17 */
 /*!***********************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/function/test.js ***!
   \***********************************************************************************************************************/
@@ -8400,7 +8381,7 @@ function empty(value) {
   isEmpty: empty };exports.default = _default;
 
 /***/ }),
-/* 37 */
+/* 18 */
 /*!******************************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/function/queryParams.js ***!
   \******************************************************************************************************************************/
@@ -8468,7 +8449,7 @@ function queryParams() {var data = arguments.length > 0 && arguments[0] !== unde
 queryParams;exports.default = _default;
 
 /***/ }),
-/* 38 */
+/* 19 */
 /*!************************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/function/route.js ***!
   \************************************************************************************************************************/
@@ -8476,7 +8457,7 @@ queryParams;exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _queryParams = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/queryParams.js */ 37));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _queryParams = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/queryParams.js */ 18));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 /**
                                                                                                                                                                                                                                                                                             * 路由跳转
                                                                                                                                                                                                                                                                                             * 注意:本方法没有对跳转的回调函数进行封装
@@ -8564,7 +8545,7 @@ route;exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 39 */
+/* 20 */
 /*!*****************************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/function/timeFormat.js ***!
   \*****************************************************************************************************************************/
@@ -8603,7 +8584,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 timeFormat;exports.default = _default;
 
 /***/ }),
-/* 40 */
+/* 21 */
 /*!***************************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/function/timeFrom.js ***!
   \***************************************************************************************************************************/
@@ -8611,7 +8592,7 @@ timeFormat;exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/timeFormat.js */ 39));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/timeFormat.js */ 20));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 /**
                                                                                                                                                                                                                                                                                           * 时间戳转为多久之前
@@ -8659,7 +8640,7 @@ function timeFrom() {var timestamp = arguments.length > 0 && arguments[0] !== un
 timeFrom;exports.default = _default;
 
 /***/ }),
-/* 41 */
+/* 22 */
 /*!********************************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/function/colorGradient.js ***!
   \********************************************************************************************************************************/
@@ -8768,7 +8749,7 @@ function rgbToHex(rgb) {
   rgbToHex: rgbToHex };exports.default = _default;
 
 /***/ }),
-/* 42 */
+/* 23 */
 /*!***********************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/function/guid.js ***!
   \***********************************************************************************************************************/
@@ -8819,7 +8800,7 @@ function guid() {var len = arguments.length > 0 && arguments[0] !== undefined ? 
 guid;exports.default = _default;
 
 /***/ }),
-/* 43 */
+/* 24 */
 /*!************************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/function/color.js ***!
   \************************************************************************************************************************/
@@ -8866,7 +8847,7 @@ var color = {
 color;exports.default = _default;
 
 /***/ }),
-/* 44 */
+/* 25 */
 /*!****************************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/function/type2icon.js ***!
   \****************************************************************************************************************************/
@@ -8911,7 +8892,7 @@ function type2icon() {var type = arguments.length > 0 && arguments[0] !== undefi
 type2icon;exports.default = _default;
 
 /***/ }),
-/* 45 */
+/* 26 */
 /*!******************************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/function/randomArray.js ***!
   \******************************************************************************************************************************/
@@ -8928,7 +8909,7 @@ function randomArray() {var array = arguments.length > 0 && arguments[0] !== und
 randomArray;exports.default = _default;
 
 /***/ }),
-/* 46 */
+/* 27 */
 /*!*************************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/function/random.js ***!
   \*************************************************************************************************************************/
@@ -8948,7 +8929,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 random;exports.default = _default;
 
 /***/ }),
-/* 47 */
+/* 28 */
 /*!***********************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/function/trim.js ***!
   \***********************************************************************************************************************/
@@ -8973,7 +8954,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 trim;exports.default = _default;
 
 /***/ }),
-/* 48 */
+/* 29 */
 /*!************************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/function/toast.js ***!
   \************************************************************************************************************************/
@@ -8993,7 +8974,7 @@ toast;exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 49 */
+/* 30 */
 /*!***********************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/config/config.js ***!
   \***********************************************************************************************************************/
@@ -9016,7 +8997,7 @@ var version = '1.3.7';var _default =
   'warning'] };exports.default = _default;
 
 /***/ }),
-/* 50 */
+/* 31 */
 /*!***********************************************************************************************************************!*\
   !*** D:/filePackage/newFilePackage/documents/HBuilderProjects/driveSholl/node_modules/uview-ui/libs/config/zIndex.js ***!
   \***********************************************************************************************************************/

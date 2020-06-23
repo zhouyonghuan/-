@@ -1,6 +1,4 @@
 {
   "navigationBarTitleText": "顺风车",
-  "usingComponents": {
-    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
-  }
+  "usingComponents": {}
 }
