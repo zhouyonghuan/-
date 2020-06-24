@@ -41,5 +41,10 @@
       }
     ]
   },
+<<<<<<< HEAD
   "usingComponents": {}
+=======
+  "usingComponents": {},
+  "sitemapLocation": "sitemap60.json"
+>>>>>>> develop
 }
