@@ -1,1 +1,1 @@
-<view class="home"><view class="header"><view class="title"><text>乘客</text></view></view><view class="main"><view class="input1"><input type="text" value="" placeholder="我的位置"/></view><view class="inpu2"><input type="text" value="" placeholder="你要去哪儿"/></view></view></view>
+<view class="home"><view class="header"><view class="title"><text>乘客</text></view></view><view class="main"><form><view class="cu-form-group margin-top"><view class="title">邮件</view><input placeholder="两字短标题" name="input"/></view></form></view></view>

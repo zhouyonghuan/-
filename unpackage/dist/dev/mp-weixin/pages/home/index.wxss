@@ -37,17 +37,14 @@
 .home .header text {
   font-size: 26rpx;
 }
-.main {
+.home .main {
   width: 700rpx;
   height: 496rpx;
-  border-radius: 30rpx;
   background: #f2f2f2;
-  margin: auto;
-  margin-bottom: 44rpx;
-}
-.main .input1 {
-  width: 100rpx;
-  height: 100rpx;
-  border: 1rpx solid #007AFF;
+  box-shadow: 0rpx 6rpx 16rpx rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  border-radius: 36rpx;
+  margin-left: 24rpx;
+  margin-right: 24rpx;
 }
 
